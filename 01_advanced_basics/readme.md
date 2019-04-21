@@ -17,13 +17,12 @@ to override configuration file use --config parameter:
 
 Configuration sample:
 
-    {
-        "REPORT_SIZE": 1000,
-        "REPORT_DIR": "/Users/eborisov/study/data/python_course/hw1/reports",
-        "LOG_DIR": "/Users/eborisov/study/data/python_course/hw1/log",
-        "TIMESTAMP_PATH": "/var/tmp/log_analyzer.ts",
-        "LOGFILE_PATH": "/var/tmp/log_analyzer.log"
-    }
+  {
+      "REPORT_SIZE": 1000,
+      "REPORT_DIR": "./reports",
+      "LOG_DIR": "./log",
+      "MONITORING_LOG_FILE": "./monitoring/log.txt"
+  }
 
 By default script outputs it's log to a file /var/tmp/log_analyzer.log. If no
 "LOGFILE_PATH" parameter is specified in the config, logging output will be
